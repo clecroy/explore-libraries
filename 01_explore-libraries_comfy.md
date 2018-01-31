@@ -1,7 +1,7 @@
 01\_explore-libraries\_comfy.R
 ================
 clecroy
-Wed Jan 31 14:33:53 2018
+Wed Jan 31 15:53:44 2018
 
 ``` r
 library(tidyverse)
