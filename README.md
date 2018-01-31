@@ -1,2 +1,4 @@
 # explore-libraries
-coourse demo
+course demo
+
+Locally added line.
