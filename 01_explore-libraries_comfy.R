@@ -2,6 +2,7 @@
 #' output: github_document
 #' ---
 
+library(tidyverse)
 
 #' Which libraries does R search for packages?
 
@@ -13,7 +14,6 @@
 ## use installed.packages() to get all installed packages
 ## if you like working with data frame or tibble, make it so right away!
 ## remember to use View() or similar to inspect
-library(tidyverse)
 
 ## how many packages?
 pkgs <- installed.packages()
@@ -51,4 +51,10 @@ pkgs %>% count(Built) %>% mutate(prop = n / sum(n))
 ## is every package in .Library either base or recommended?
 ## study package naming style (all lower case, contains '.', etc
 ## use `fields` argument to installed.packages() to get more info and use it!
+
 installed.packages(fields = "URL") %>% as_tibble %>% select(URL) %>% grep(pattern = "github")
+
+sum(grepl("[A-Z]", pkgs$Package))
+mean(grepl("[A-Z]", pkgs$Package))
+
+sessionInfo()
