@@ -10,4 +10,4 @@ Beware the Golden Fang.
 
 The night was dark as a Trystero rider.
 
-[Link to markdown of code](https://github.com/clecroy/explore-libraries/blob/master/01_explore-libraries_comfy.md)
+[Link to markdown of code](01_explore-libraries_comfy.md)
