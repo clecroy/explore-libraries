@@ -6,6 +6,7 @@ Wed Jan 31 15:53:44 2018
 ``` r
 library(tidyverse)
 ```
+Remotely added line to conflict with local.
 
     ## -- Attaching packages --------------------------------------------------------- tidyverse 1.2.1 --
 
